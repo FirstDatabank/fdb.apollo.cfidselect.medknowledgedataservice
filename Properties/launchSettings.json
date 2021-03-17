@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "fdb.apollo.cfidselect.mkdataservice": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AppConfigConnectionString": "Endpoint=https://dev-data-acq-onbase-app-configuration.azconfig.io;Id=znXa-l0-s0:PvoY5dJY3e5HGEqh1ai6;Secret=dwfnvalBPaWK3hioqzXF5bHT8GW7hd6mWivJY1Bi+so=",
+        "ASPNETCORE_ENVIRONMENT": "dev"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32288,
+      "useSSL": false
+    }
+  }
+}
